@@ -54,12 +54,6 @@
 						<el-form-item prop="djzt" label="党籍状态">
 							<el-input v-model="partyForm.djzt"></el-input>
 						</el-form-item>
-						<el-form-item prop="sfsl" label="是否为失联党员">
-							<el-input v-model="partyForm.sfsl"></el-input>
-						</el-form-item>
-						<el-form-item prop="slrq" label="失去联系日期">
-							<el-input v-model="partyForm.slrq"></el-input>
-						</el-form-item>
 						<el-form-item prop="sfld" label="是否为流动党员">
 							<el-input v-model="partyForm.sfld"></el-input>
 						</el-form-item>
@@ -79,11 +73,12 @@
                 :before-upload="beforeAvatarUpload">
                 <img v-if="imageUrl" :src="imageUrl" class="avatar">
                 <i v-else class="el-icon-plus avatar-uploader-icon"></i>
+                <p>上传确认函照片</p>
               </el-upload>
 						</el-form-item>
 
 						<el-form-item>
-								<el-button type="primary" @click="submitForm('partyForm')" :style="{width: '100%'}">提交</el-button>
+								<el-button type="primary" @click="submitForm('partyForm')" :style="{width: '100%'}">确认无误提交</el-button>
 							</el-form-item>
 					</el-form>
 	  		</el-card>
@@ -110,8 +105,6 @@ const fields = [
   "gddh",
   "jtzz",
   "djzt",
-  "sfsl",
-  "slrq",
   "sfld",
   "wclx"
 ];

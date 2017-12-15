@@ -7,7 +7,8 @@
               <img alt="" class="logo" src="../assets/logo.svg" />
               <span class="title">党员信息填报</span>
             </div>
-            <p class="desc">如遇问题请联系：0431-8465771、84689772</p>
+            <p class="desc">身份证号码问题咨询电话：0431-84685771、772<br/>
+            办理转出手续、申请转正咨询电话：0431-84657570、571</p>
           </div>
 		    	<el-form class="main" :model="loginForm" :rules="rules" ref="loginForm">
 						<el-form-item prop="sfzh" label="公民身份证号">
@@ -138,8 +139,7 @@ export default {
   font-size: 14px;
   color: fade(#000, 45%);
   margin-top: 12px;
-  margin-bottom: 40px;
-}
+  }
 
 
 </style>
