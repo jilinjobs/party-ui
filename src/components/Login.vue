@@ -140,6 +140,14 @@ export default {
   color: fade(#000, 45%);
   margin-top: 12px;
   }
-
+@media screen and (max-width: 320px) {
+  .container {
+    padding: 40px 20px 40px 20px;
+    position: relative;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
 
 </style>
