@@ -4,7 +4,7 @@
       <router-view/>
     </el-main>
     <el-footer class="footer" height="48px">
-		  <span>吉林省高等学校毕业生就业指导中心 版权所有 © 2017</span>
+		  <span>吉林省高等学校毕业生就业指导中心 © 2017</span>
 		</el-footer>
   </el-container>
 </template>
