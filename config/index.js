@@ -16,7 +16,10 @@ module.exports = {
       //   pathRewrite: {"^/api" : ""}
       // }
       // "/api": "http://localhost:3000"
-      "/api": "http://localhost:7001",
+      "/party": {
+        target: "http://localhost:3000",
+        pathRewrite: {"^/api" : ""}
+      }
     },
 
     // Various Dev Server settings
