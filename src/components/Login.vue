@@ -18,8 +18,8 @@
 							</el-form-item>
 					</el-form>
           <p class="desc">请先下载《确认函》模板，打印出来后按要求签字并拍照：<br/>
-          <a href="/static/doc/确认函模板(关系在中心).docx">确认函模板(关系在中心).docx</a><br/>
-          <a href="/static/doc/确认函模板(关系已迁走).docx">确认函模板(关系已迁走).docx</a></p>
+          <a href="/party/static/doc/确认函模板(关系在中心).docx">确认函模板(关系在中心).docx</a><br/>
+          <a href="/party/static/doc/确认函模板(关系已迁走).docx">确认函模板(关系已迁走).docx</a></p>
 	  		</div>
 	  	</transition>
   	</div>
