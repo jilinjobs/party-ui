@@ -73,7 +73,7 @@
               </el-radio-group>              
 							<el-upload
                 class="avatar-uploader"
-                :action="'/api/upload?id='+partyForm._id"
+                :action="'/party/api/upload?id='+partyForm._id"
                 :show-file-list="false"
                 :on-success="handleAvatarSuccess"
                 :before-upload="beforeAvatarUpload">
