@@ -5,7 +5,7 @@
           <div class="top">
             <div class="header">
               <img alt="" class="logo" src="../assets/logo.svg" />
-              <span class="title">党员信息填报</span>
+              <span class="title">流动党员信息填报</span>
             </div>
             <p class="desc">身份证号码问题咨询电话：0431-84685771、772<br/>
             办理转出手续、申请转正咨询电话：0431-84657570、571</p>

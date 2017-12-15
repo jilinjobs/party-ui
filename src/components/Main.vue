@@ -3,7 +3,7 @@
 	  	<transition name="form-fade" mode="in-out">
 	  		<el-card class="box-card">
           <div slot="header" class="clearfix">
-            <span>党员基本信息确认</span>
+            <span>流动党员信息确认</span>
           </div>
 		    	<el-form class="main" :model="partyForm" :rules="rules" ref="partyForm" :status-icon="true" :show-message="false" size="small">
 						<el-form-item prop="xh" label="序号">
