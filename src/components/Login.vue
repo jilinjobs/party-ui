@@ -127,7 +127,7 @@ export default {
 }
 
 .title {
-  font-size: 33px;
+  font-size: 1.5em;
   color: fade(#000, 85%);
   font-family: "Myriad Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-weight: 600;

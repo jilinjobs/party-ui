@@ -60,11 +60,21 @@
 						<el-form-item prop="wclx" label="外出流向">
 							<el-input v-model="partyForm.wclx"></el-input>
 						</el-form-item>
-						<el-form-item prop="image" label="确认函" :required="true">
-              <el-radio-group v-model="type">
+              <el-radio-group v-model="type" size="small">
                 <el-radio-button label="0">党组织关系在中心</el-radio-button>
                 <el-radio-button label="1">党组织关系已迁走</el-radio-button>
               </el-radio-group>              
+						<el-form-item prop="qwdmc" label="迁往地党组织名称" v-if="type==1" :required="true">
+							<el-input v-model="partyForm.qwdmc"></el-input>
+						</el-form-item>
+						<el-form-item prop="qwdlxr" label="迁往地联系人" v-if="type==1" :required="true">
+							<el-input v-model="partyForm.qwdlxr"></el-input>
+						</el-form-item>
+						<el-form-item prop="qwdlxdh" label="迁往地联系电话" v-if="type==1" :required="true">
+							<el-input v-model="partyForm.qwdlxdh"></el-input>
+						</el-form-item>
+              
+						<el-form-item prop="image" label="确认函" :required="true">
 							<el-upload
                 class="avatar-uploader"
                 :action="'/party/api/upload?id='+partyForm._id"
