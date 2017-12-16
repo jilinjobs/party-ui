@@ -7,8 +7,9 @@
               <img alt="" class="logo" src="../assets/logo.svg" />
               <span class="title">流动党员信息填报</span>
             </div>
-            <p class="desc">身份证号码问题咨询电话：0431-84685771、772<br/>
-            办理转出手续、申请转正咨询电话：0431-84657570、571</p>
+            <p class="desc">
+              身份证号码问题咨询：0431-84685771、772<br/>
+            办理转出手续、申请转正咨询：0431-84657570、571</p>
           </div>
 		    	<el-form class="main" :model="loginForm" :rules="rules" ref="loginForm">
 						<el-form-item prop="sfzh" label="公民身份证号">
@@ -18,7 +19,7 @@
 								<el-button type="primary" @click="submitForm('loginForm')" :style="{width: '100%'}">提交</el-button>
 							</el-form-item>
 					</el-form>
-          <p class="desc">请先下载《确认函》模板，打印出来后按要求签字并拍照：<br/>
+          <p class="desc">请于12月20日前完成信息填报。先下载《确认函》模板，工整抄写或打印并按要求签字拍照上传：<br/>
           <a href="/party/static/doc/确认函模板(关系在中心).docx">确认函模板(关系在中心).docx</a><br/>
           <a href="/party/static/doc/确认函模板(关系已迁走).docx">确认函模板(关系已迁走).docx</a></p>
 	  		</div>
@@ -102,10 +103,10 @@ export default {
 <style lang="less" scoped>
 .container {
   width: 100%;
-  min-height: 100%;
-  padding: 110px 40px 144px 40px;
-  position: relative;
-
+  padding: 0 40px 0 40px;
+  position: absolute;
+  top: 50%;
+  margin-top: -50%;
 }
 .main {
   max-width: 368px;
@@ -142,8 +143,32 @@ export default {
   }
 @media screen and (max-width: 320px) {
   .container {
-    padding: 40px 20px 40px 20px;
+    padding: 20px;
     position: relative;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-height: 480px) {
+  .container {
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-height: 568px) {
+  .container {
+    padding: 40px 20px 20px 20px;
+    position: relative;
+    margin: 0;
+    margin-bottom: 40px;
   }
   .title {
     font-size: 24px;
