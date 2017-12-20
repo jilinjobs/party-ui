@@ -106,7 +106,7 @@ export default {
   padding: 0 40px 0 40px;
   position: absolute;
   top: 50%;
-  margin-top: -50%;
+  margin-top: -200px;
 }
 .main {
   max-width: 368px;
