@@ -21,7 +21,8 @@
 					</el-form>
           <p class="desc">请于12月20日前完成信息填报。先下载《确认函》模板，工整抄写或打印并按要求签字拍照上传：<br/>
           <a href="/party/static/doc/确认函模板(关系在中心).docx">确认函模板(关系在中心).docx</a><br/>
-          <a href="/party/static/doc/确认函模板(关系已迁走).docx">确认函模板(关系已迁走).docx</a></p>
+          <a href="/party/static/doc/确认函模板(关系迁出至省内).docx">确认函模板(关系迁出至省内).docx</a><br/>
+          <a href="/party/static/doc/确认函模板(关系迁出至省外).docx">确认函模板(关系迁出至省外).docx</a></p>
 	  		</div>
 	  	</transition>
   	</div>
